@@ -1,0 +1,244 @@
+
+img{
+  position: relative;
+  z-index: 2;
+  left:300px;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+}
+.i1{
+  position: relative;
+  z-index: 1;
+  top: -165px;
+  width: 400px;
+  height: 280px;
+  left: 350px;
+  background-color: white;
+  box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.5);
+}
+.choco{
+max-height: 300px;
+}
+.vt{
+  position: relative;
+  z-index: 2;
+top:-125px;
+  width: 250px;
+  height: 250px;
+  left: 500px;
+  background-color: white;
+
+}
+.i2{
+  position: relative;
+  z-index: 1;
+  top: 100px;
+  width: 400px;
+  height: 200px;
+  left: 300px;
+  background-color: white;
+}
+h1{
+  text-align: center;
+}
+.pastry{
+  margin-left: 160px;
+}
+.pastry h2{
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pastry p{
+  font-size: 15px;
+  
+}
+.i2{
+  display: block;
+  box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.5);
+}
+.i2 h2{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+}
+.i2 p{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right:200px ;
+}
+.get{
+  padding: 10px;
+  text-align: center;
+}
+.get input{
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.1);
+}
+.get textarea{
+  width: 210px;
+  margin: 5px;
+  outline: none;
+  text-align: center;
+  border: none;
+  box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.1);
+}
+.get button{
+  margin: 10px;
+ background-color:rgb(9, 95, 129);
+ color: white;
+ border: 2px solid rgb(9, 95, 129);;
+ text-transform: uppercase;
+ font-size: 10px;
+  display: block;
+  padding: 5px;
+  width: 80px;
+  border-radius: 50px;
+  outline: none;
+  align-items: center;
+  box-shadow: 1px 5px 10px skyblue;
+  justify-content: center;
+  letter-spacing: 1px;
+  transition: 2s;
+}
+.get h2{
+  color:  rgb(13, 13, 88);
+
+}
+.get p{
+  position: relative;
+  top: -20px;
+}
+.d1{
+  height:350px;
+  position: relative;
+  left: 350px;
+  width: 300px;
+  top:90px;
+  margin-bottom: 20px;
+  box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.1);
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width:800px){
+  img{
+    position: relative;
+    z-index: 2;
+    left:120px;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+  }
+  .i1{
+    position: relative;
+    z-index: 1;
+    top: -165px;
+    width: 400px;
+    height: 280px;
+    left: 200px;
+    background-color: white;
+  }
+  .pastry{
+    margin-left: 140px;
+  }
+  .vt{
+    position: relative;
+    z-index: 2;
+  top:-125px;
+    width: 250px;
+    height: 250px;
+    left: 350px;
+    background-color: white;
+  
+  }
+  .i2{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    width: 400px;
+    height: 200px;
+    left: 120px;
+    background-color: white;
+  }
+  .d1{
+    height:350px;
+    position: relative;
+    left: 200px;
+    width: 300px;
+    top:90px;
+    box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.1);
+  }
+  
+}
+@media only screen and (max-width:600px){
+  img{
+    position: relative;
+    z-index: 2;
+    left:40px;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+  }
+  .i1{
+    position: relative;
+    z-index: 1;
+    top: -165px;
+    width: 450px;
+    height: 280px;
+    left: 120px;
+    background-color: white;
+  }
+  .pastry{
+    margin-left: 150px;
+    margin-right:10px ;
+  }
+  .vt{
+    position: relative;
+    z-index: 2;
+  top:-125px;
+    width: 250px;
+    height: 250px;
+    left: 320px;
+    background-color: white;
+  
+  }
+  .i2{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    width: 400px;
+    height: 200px;
+    left: 45px;
+    background-color: white;
+  }
+  .i2 h2{
+      position: relative;
+      left: 20px;
+  }
+  .i2 p{
+    position: relative;
+      left: 20px;
+  }
+  .d1{
+    height:350px;
+    position: relative;
+    left: 150px;
+    width: 300px;
+    top:90px;
+    box-shadow: -1px -1px 5px 0 rgba(0,0,0,0.1);
+  }
+  
+}
